@@ -1,0 +1,108 @@
+body {
+margin: 0;
+font-family: system-ui, sans-serif;
+background: white;
+color: black;
+}
+
+
+header {
+padding: 1.5rem;
+background: pink;
+}
+
+
+nav a {
+color: white;
+margin-right: 1rem;
+text-decoration: none;
+}
+
+
+nav a:hover { color: palevioletred; }
+
+
+main {
+padding: 2rem;
+max-width: 1000px;
+margin: auto;
+}
+
+
+.grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 1.5rem;
+}
+
+
+.card {
+background: palevioletred;
+padding: 1.5rem;
+border-radius: 1rem;
+}
+
+
+footer {
+text-align: center;
+padding: 1rem;
+color: #94a3b8;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  background: palevioletred;
+  color: #020617;
+  padding: 0.7rem 1.2rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.miembros {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.miembro {
+  width: 220px;
+  padding: 15px;
+  text-align: center;
+  border-radius: 15px;
+  cursor: pointer;
+  background: pink;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.miembro img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.miembro:hover {
+  transform: rotateY(15deg) rotateX(5deg) scale(1.05);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+}
+
+.miembro:hover img {
+  transform: rotateY(-10deg);
+}
+
+.miembro h4 {
+  margin: 8px 0 4px;
+  font-size: 16px;
+}
+
+.miembro p {
+  margin: 0;
+  color: #666;
+  font-size: 14px;
+}
