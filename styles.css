@@ -1,108 +1,81 @@
 body {
-margin: 0;
-font-family: system-ui, sans-serif;
-background: white;
-color: black;
+  font-family: 'Inter', sans-serif;
+  background: #f7f7f7;
+  color: #111;
 }
 
-
-header {
-padding: 1.5rem;
-background: pink;
-}
-
-
-nav a {
-color: white;
-margin-right: 1rem;
-text-decoration: none;
-}
-
-
-nav a:hover { color: palevioletred; }
-
-
-main {
-padding: 2rem;
-max-width: 1000px;
-margin: auto;
-}
-
-
-.grid {
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-gap: 1.5rem;
-}
-
-
-.card {
-background: palevioletred;
-padding: 1.5rem;
-border-radius: 1rem;
-}
-
-
-footer {
-text-align: center;
-padding: 1rem;
-color: #94a3b8;
-}
-
-.btn {
-  display: inline-block;
-  margin-top: 1rem;
-  background: palevioletred;
-  color: #020617;
-  padding: 0.7rem 1.2rem;
-  border-radius: 0.5rem;
+a {
   text-decoration: none;
-  font-weight: 600;
+  color: inherit;
 }
 
-.btn:hover {
-  opacity: 0.9;
+.hero h1 span {
+  color: #f4b400;
 }
 
-.miembros {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
+.hero-img {
+  background: #f4b400;
+  border-radius: 50% 50% 40% 60%;
+  padding: 30px;
+  display: inline-block;
 }
 
-.miembro {
+.hero-img img {
   width: 220px;
-  padding: 15px;
-  text-align: center;
-  border-radius: 15px;
+  border-radius: 50%;
+}
+
+.project-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.project-card img {
+  width: 120px;
+  border-radius: 12px;
+}
+
+footer i {
+  font-size: 1.4rem;
   cursor: pointer;
-  background: pink;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+ 
+.about-section h2 {
+  font-weight: 700;
 }
 
-.miembro img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
+.about-text {
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 15px;
 }
 
-.miembro:hover {
-  transform: rotateY(15deg) rotateX(5deg) scale(1.05);
-  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+.about-image {
+  background: #f4b400;
+  border-radius: 50%;
+  padding: 12px;
+  display: inline-block;
 }
 
-.miembro:hover img {
-  transform: rotateY(-10deg);
+.about-image img {
+  width: 260px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
-.miembro h4 {
-  margin: 8px 0 4px;
-  font-size: 16px;
+.carousel img {
+  max-height: 450px;
+  object-fit: cover;
 }
 
-.miembro p {
-  margin: 0;
-  color: #666;
-  font-size: 14px;
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 12px;
+  padding: 12px;
 }
