@@ -79,3 +79,43 @@ footer i {
   border-radius: 12px;
   padding: 12px;
 }
+
+
+.contact-section h2 {
+  font-weight: 700;
+}
+
+.contact-text {
+  color: #555;
+  font-size: 1.05rem;
+}
+
+.contact-card {
+  background: #ffffff;
+}
+
+.btn-contact {
+  background: #f4b400;
+  color: #000;
+  font-weight: 600;
+  padding: 12px 28px;
+  border-radius: 30px;
+  transition: 0.3s ease;
+  text-decoration: none;
+}
+
+.btn-contact:hover {
+  background: #ffd24d;
+  transform: translateY(-2px);
+}
+
+.icon-link {
+  color: #000;
+  font-size: 1.4rem;
+  transition: 0.3s ease;
+}
+
+.icon-link:hover {
+  color: #f4b400;
+  transform: scale(1.2);
+}
